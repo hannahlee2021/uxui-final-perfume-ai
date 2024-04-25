@@ -1,0 +1,19 @@
+{
+  "name": "open-ai-perfume-test",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "perfume.js",
+  "scripts": {
+    "dev": "node perfume.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas2image": "^1.0.5",
+    "dotenv": "^16.4.5",
+    "html2canvas": "^1.4.1",
+    "openai": "^4.31.0"
+  }
+}

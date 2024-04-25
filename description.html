@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/description.css">
+    <script src="https://superal.github.io/canvas2image/canvas2image.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <title>AI perfume helper</title>
+</head>
+<body>
+    <!-- <div id = "hi"></div> -->
+    <div class = "header">
+        <a href="index.html">home</a>
+        <button type="button" id="save">save</button>
+        <a href=description.html">generate</a>
+    </div>
+    <hr>
+
+    
+       <div class = "specific"> 
+        
+        <h1 id="describe">describe your scent here:</h1>
+    
+    <form id="form" action="#" method="POST">
+        <div class = "prompt-container">
+            <!-- <input type="text" name="prompt" id="prompt"> -->
+            <textarea type="text" name="prompt" id="prompt" placeholder="ex: a field of lilys and lavender" required></textarea>
+        </div>
+        
+        <button name="submit" id="submit">Start</button>
+        <p id="name" class="error"></p>
+        <p id="notes" class ="error"></p>
+        <p id="narrative" class="error"></p>
+      </form>
+    </div>
+  
+
+    <!-- <script type="module" src="index.js"></script> -->
+
+    <script src="js/perfume.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+body {
+    background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* #prompt {
+   background-image: url("submissioin-box.svg");
+  
+   height: 1000px;
+   text-decoration-line: none; 
+   overflow: scroll;
+
+    color: blue;
+    border: 1px solid white;
+    text-decoration: underline;
+    width: 00px;
+ 
+  
+} */
+.submission-container {
+  
+    
+}
+
+
+#describe {
+    display: flex;
+    justify-content: center;
+
+}
+#form {
+
+}
+.prompt-container {
+   display: flex;
+   justify-content: center;
+}
+#prompt {
+   
+   
+    
+    text-decoration-line: none; 
+    overflow-y: scroll;
+ 
+     color: blue;
+     border: 1px solid black;
+     text-decoration: underline;
+     
+    width:50%;
+    height: 30vh;
+      /* border-radius: 1000px; */
+      border-radius: 20px;
+    
+   
+ }
+
+ #submit {
+    position: relative;
+    left: 700px;
+    top: 40px;
+    /* display: flex;
+    justify-content: center; */
+ }
+
+ @media (max-width:768px) {
+    #submit {
+        left: 350px;
+        top: 40px;
+    }
+ }
+
+ @media (max-width:390px) {
+    #submit {
+        left: 160px;
+        top: 40px;
+    }
+ }
+
+ 
